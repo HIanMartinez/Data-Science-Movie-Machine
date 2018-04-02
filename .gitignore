@@ -105,3 +105,8 @@ ENV/
 
 # Mac Stuff
 .DS_Store
+
+# Large datasets
+*.csv
+*.tsv
+key.py
