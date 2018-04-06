@@ -20,7 +20,7 @@ Feel free to create your own cast, director, and genres to see how your movie id
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The data behind the tool was put together by first downloading a dataset of titles and ratings from [IMDb](https://www.imdb.com/interfaces/). The dataset from IMDb is formatted with titles being in an ID format, [tt0335266](http://www.imdb.com/title/tt0335266/), which presents difficulties. The largest issue is that we don't know what movies these IDs are tied to. Similarly, other datasets have IDs for actors and actresses. To address this, I created a python package to interact with the [OMDb API](http://www.omdbapi.com/). A request to the OMDb API returns a JSON file structured like: ![OMDb JSON Return](https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/Screen%20Shot%202018-04-06%20at%201.00.06%20PM.png)
 It's a thing of beauty that's pretty well-structured for getting the appropriate elements and putting into a pandas DataFrame. 
 
-Below are the elements of the dataframe:
+Below are the features of the dataframe:
 * Actors (String)
 * Awards (String) 
 * Country of Origin (String)
