@@ -50,6 +50,7 @@ Target Features:
 <img width="300" height="20" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqn.png">
 </p>
 This is the essence of what will be happening behind the scenes of the tool. 
+
 To get an idea of how the model will work with the data:
 <p align="center">
 <img width="600" height="20" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqnWords.png">
