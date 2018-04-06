@@ -28,16 +28,19 @@ Below are the elements of the dataframe:
 * Genre
 * Languages Released In
 * MPAA Rating
-* Metacritic Score
 * Movie Title
 * Short Plot
 * Production Studio
 * Release Date
-* Rotten Tomatoes Score
 * Runtime
 * Writer(s)
 * Year of Release
 * IMDb ID
+
+Target Features:
+* Box Office Returns
+* Rotten Tomatoes Score
+* Metacritic Score
 * IMDb Score
 
 <a id="method"></a>
