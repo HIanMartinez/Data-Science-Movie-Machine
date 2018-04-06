@@ -43,5 +43,12 @@ Below are the elements of the dataframe:
 <a id="method"></a>
 ## The Method
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linear regressions are used to predict box office returns and scores across Rotten Tomatoes, Metacritic and IMDb based on the inputs of actors, director, and genre. 
-![Multiple Linear Regression](https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqn.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linear regressions are used to predict box office returns and scores across Rotten Tomatoes, Metacritic and IMDb based on the inputs of actors, director, and genre. Below is the classic formula for multiple linear regression:
+<p align="center">
+<img width="300" height="25" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqn.png">
+</p>
+This is the essence of what will be happening behind the scenes of the tool. 
+To get an idea of how the model will work with the data:
+<p align="center">
+<img width="550" height="20" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqnWords.png">
+</p>
