@@ -21,27 +21,26 @@ Feel free to create your own cast, director, and genres to see how your movie id
 It's a thing of beauty that's pretty well-structured for getting the appropriate elements and putting into a pandas DataFrame. 
 
 Below are the elements of the dataframe:
-* Actors 
-* Awards
-* Box Office Returns ($US)
-* Country of Origin
-* Genre
-* Languages Released In
-* MPAA Rating
-* Movie Title
-* Short Plot
-* Production Studio
-* Release Date
-* Runtime
-* Writer(s)
-* Year of Release
-* IMDb ID
+* Actors (String)
+* Awards (String) 
+* Country of Origin (String)
+* Genre (String)
+* Languages Released In (String)
+* MPAA Rating (String)
+* Movie Title (String)
+* Short Plot (String)
+* Production Studio (String)
+* Release Date (String)
+* Runtime (Integer)
+* Writer(s) (String)
+* Year of Release (Integer)
+* IMDb ID (String)
 
 Target Features:
-* Box Office Returns
-* Rotten Tomatoes Score
-* Metacritic Score
-* IMDb Score
+* Box Office Returns in $US (Integer)
+* Rotten Tomatoes Score (Float)
+* Metacritic Score (Integer)
+* IMDb Score (Float)
 
 <a id="method"></a>
 ## The Method
