@@ -55,3 +55,4 @@ To get an idea of how the model will work with the data:
 <p align="center">
 <img width="600" height="20" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqnWords.png">
 </p>
+Actors, Genre, MPAA Rating, Production Studio, Writer(s) have been made into dummy variables. 1 if the element is present, 0 if not. For example, Zombieland would have 1 for Emma Stone, 0 for Emma Watson; 1 for comedy, 0 for drama. 
