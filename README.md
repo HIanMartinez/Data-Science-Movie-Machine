@@ -22,6 +22,7 @@ It's a thing of beauty that's pretty well-structured for getting the appropriate
 
 Below are the features of the dataframe:
 * Actors (String)
+* Directors (String)
 * Awards (String) 
 * Country of Origin (String)
 * Genre (String)
@@ -39,7 +40,6 @@ Below are the features of the dataframe:
 Target Features:
 * Box Office Returns in $US (Integer)
 * Rotten Tomatoes Score (Float)
-* Metacritic Score (Integer)
 * IMDb Score (Float)
 
 <a id="method"></a>
@@ -55,4 +55,4 @@ To get an idea of how the model will work with the data:
 <p align="center">
 <img width="600" height="20" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqnWords.png">
 </p>
-Actors, Genre, MPAA Rating, Production Studio, Writer(s) have been made into dummy variables. 1 if the element is present, 0 if not. For example, Zombieland would have 1 for Emma Stone, 0 for Emma Watson; 1 for comedy, 0 for drama. 
+Actors, Directors, and Genre have been made into dummy variables. 1 if the element is present, 0 if not. For example, Zombieland would have 1 for Emma Stone, 0 for Emma Watson; 1 for comedy, 0 for drama. A model is trained with Box Office Returns, Rotten Tomatoes Score, and IMDb Score as target variables. The dummy variables will act as inputs for the predictive model, returning the predicted returns and scores for the target variables.
