@@ -19,6 +19,7 @@ def omdb_scraper(df):
     Returns: A .csv of movies with the:
     -Movie Title
     -Actors
+    -Director
     -Awards
     -Box Office Returns
     -Country of Origin
@@ -114,6 +115,10 @@ def omdb_scraper(df):
                             except:
                                 writer = 'Null'
                             try:
+                                director = data['Director']
+                            except:
+                                director = 'Null'
+                            try:
                                 year = data['Year']
                             except:
                                 year = 'Null'
@@ -121,15 +126,15 @@ def omdb_scraper(df):
                             imdbscore = data['imdbRating']
 
                             # Creates a DataFrame to be filled with the items I'm requesting
-                            raw_movies = pd.DataFrame(columns={'Actors','Awards','Box Office ($)','Country','Genre', 
+                            raw_movies = pd.DataFrame(columns={ 'Movie Title','Actors', 'Director','Awards','Box Office ($)','Country','Genre', 
                                                                'Language', 'Metacritic Score', 'Plot', 'Production Studio', 'MPAA Rating',
-                                                               'Rotten Tomatoes Score', 'Release Date', 'Runtime', 'Movie Title',
+                                                               'Rotten Tomatoes Score', 'Release Date', 'Runtime',
                                                                'Writer', 'Year of Release', 'imdb ID', 'imdb Score'})
-                            raw_dataframe = pd.DataFrame({'Actors': actors, 'Awards':awards, 'Box Office ($)':boxOffice,
-                                                          'Country': country, 'Genre':genre, 'Language':language, 'Metacritic Score':metacritic,
-                                                          'Plot':plot, 'Production Studio':production, 'MPAA Rating':rating,
-                                                          'Rotten Tomatoes Score':rtscore, 'Release Date':release, 'Runtime':runtime,
-                                                          'Movie Title':title, 'Writer':writer, 'Year of Release':year,
+                            raw_dataframe = pd.DataFrame({'Movie Title':title,'Actors': actors,'Director': director, 'Awards':awards, 
+                                                          'Box Office ($)':boxOffice, 'Country': country, 'Genre':genre, 'Language':language, 
+                                                          'Metacritic Score':metacritic, 'Plot':plot, 'Production Studio':production, 
+                                                          'MPAA Rating':rating, 'Rotten Tomatoes Score':rtscore, 'Release Date':release, 
+                                                          'Runtime':runtime, 'Writer':writer, 'Year of Release':year,
                                                           'imdb ID':imdb_id, 'imdb Score':imdbscore}, index=[0])
                             raw_movies = raw_movies.append(raw_dataframe)
                             raw_movies.to_csv('imdb_X.csv', mode='a', header=(not os.path.exists('./imdb_X.csv')))
