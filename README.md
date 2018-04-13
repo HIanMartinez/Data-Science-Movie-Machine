@@ -45,7 +45,7 @@ Target Features:
 <a id="method"></a>
 ## The Method
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linear regressions are used to predict box office returns and scores across Rotten Tomatoes, Metacritic and IMDb based on the inputs of actors, director, and genre. Below is the classic formula for multiple linear regression:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linear regressions are used to predict box office returns and scores from Rotten Tomatoes and IMDb based on the inputs of actors, director, and genre. Below is the classic formula for multiple linear regression:
 <p align="center">
 <img width="300" height="20" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqn.png">
 </p>
