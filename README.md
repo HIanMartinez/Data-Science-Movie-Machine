@@ -66,5 +66,5 @@ Actors, Directors, and Genre have been made into dummy variables. 1 if the eleme
 <a id="result"></a>
 ## The Results
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using data science and predictive models, we can guess how a movie might perform at the box office or with critics! Of course this isn't foolproof and having much more data and some greater tuning would help boost the strength of the models. But I think this project highlights the amalgam of using data science and having some fun! <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using data science and predictive models, we can guess how a movie might perform at the box office or with critics! Of course this isn't foolproof and having more data and greater tuning would help boost the predictive power of the models. But this project highlights the amalgam of using data science and having fun! <br><br>
 This repo will be updated with the script that you can use for choosing your own cast, director, and genres soon!
