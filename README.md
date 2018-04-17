@@ -57,7 +57,7 @@ To get an idea of how the model will work with the data:
 </p>
 Actors, Directors, and Genre have been made into dummy variables. 1 if the element is present, 0 if not. For example, Zombieland would have 1 for Emma Stone, 0 for Emma Watson; 1 for comedy, 0 for drama. A model is trained with Box Office Returns, Rotten Tomatoes Score, and IMDb Score as target variables. The dummy variables will act as inputs for the predictive model, returning the predicted returns and scores for the target variables.
 <br><br>
-Additionally, Random Forest Regression is used as well as another model to test for the same as above. The image below gives an idea of how Random Forest Regression arrives at its prediction:
+Additionally, Random Forest Regression is used as another model to test for the same as above. The image below gives an idea of how Random Forest Regression arrives at its prediction:
 
 <p align="center">
 <img width="450" height="400" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/randomforestimg.png">
