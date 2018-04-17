@@ -11,7 +11,7 @@
 <a id="introduction"></a>
 ## Introduction
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This repository is my final project for General Assembly's 12-week Data Science Immersive program. The project puts together a tool, utilizing movie data, to make predictions of box office performance (measured in USD) and ratings on various platforms (Rotten Tomatoes, Metacritic, and IMDb) based on different selected factors (director, actors, genre). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This repository is my final project for General Assembly's 12-week Data Science Immersive program. The project puts together a tool, utilizing movie data, to make predictions of box office performance (measured in USD) and a Rotten Tomatoes score based on different selected factors (director, actors, genre). 
 Feel free to create your own cast, director, and genres to see how your movie idea might perform!
 
 <a id="data"></a>
@@ -56,8 +56,8 @@ To get an idea of how the model will work with the data:
 <img width="600" height="20" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqnWords.png">
 </p>
 Actors, Directors, and Genre have been made into dummy variables. 1 if the element is present, 0 if not. For example, Zombieland would have 1 for Emma Stone, 0 for Emma Watson; 1 for comedy, 0 for drama. A model is trained with Box Office Returns, Rotten Tomatoes Score, and IMDb Score as target variables. The dummy variables will act as inputs for the predictive model, returning the predicted returns and scores for the target variables.
-<br>
-&nbsp;&nbsp;&nbsp;Additionally, Random Forest Regression is used as well as another model to test for the same as above. The image below &nbsp;&nbsp;&nbsp;gives an idea of how Random Forest Regression arrives at its prediction:
+<br><br>
+Additionally, Random Forest Regression is used as well as another model to test for the same as above. The image below gives an idea of how Random Forest Regression arrives at its prediction:
 
 <p align="center">
 <img width="450" height="400" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/randomforestimg.png">
