@@ -17,7 +17,7 @@ Feel free to create your own cast, director, and genres to see how your movie id
 <a id="data"></a>
 ## The Data
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The data behind the tool was put together by first downloading a dataset of titles and ratings from [IMDb](https://www.imdb.com/interfaces/). The dataset from IMDb is formatted with titles being in an ID format, [tt0335266](http://www.imdb.com/title/tt0335266/), which presents difficulties. The largest issue is that we don't know what movies these IDs are tied to. Similarly, other datasets have IDs for actors and actresses. To address this, I created a python package to interact with the [OMDb API](http://www.omdbapi.com/). A request to the OMDb API returns a JSON file structured like: ![OMDb JSON Return](https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/Screen%20Shot%202018-04-06%20at%201.00.06%20PM.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The data behind the tool was put together by first downloading a dataset of titles and ratings from [IMDb](https://www.imdb.com/interfaces/). The dataset from IMDb is formatted with titles being in an ID format, [tt0335266](http://www.imdb.com/title/tt0335266/), which presents difficulties. The largest issue is that we don't know what movies these IDs are tied to. Similarly, other datasets have IDs for actors and actresses. To address this, I created a python script to interact with the [OMDb API](http://www.omdbapi.com/). A request to the OMDb API returns a JSON file structured like: ![OMDb JSON Return](https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/Screen%20Shot%202018-04-06%20at%201.00.06%20PM.png)
 It's a thing of beauty that's pretty well-structured for getting the appropriate elements and putting into a pandas DataFrame. 
 
 Below are the features of the dataframe:
@@ -45,7 +45,7 @@ Target Features:
 <a id="method"></a>
 ## The Method
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linear regressions are used to predict box office returns and scores across Rotten Tomatoes, Metacritic and IMDb based on the inputs of actors, director, and genre. Below is the classic formula for multiple linear regression:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linear regressions are used to predict box office returns and scores from Rotten Tomatoes and IMDb based on the inputs of actors, director, and genre. Below is the classic formula for multiple linear regression:
 <p align="center">
 <img width="300" height="20" src="https://github.com/HIanMartinez/GA-Capstone/blob/master/assets/CodeCogsEqn.png">
 </p>
@@ -66,5 +66,5 @@ Actors, Directors, and Genre have been made into dummy variables. 1 if the eleme
 <a id="result"></a>
 ## The Results
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using data science and predictive models, we can guess how a movie might perform at the box office or with critics! Of course this isn't foolproof and having much more data and some greater tuning would help boost the strength of the models. But I think this project highlights the amalgam of using data science and having some fun! <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using data science and predictive models, we can guess how a movie might perform at the box office or with critics! Of course this isn't foolproof and having more data and greater tuning would help boost the predictive power of the models. But this project highlights the amalgam of using data science and having fun! <br><br>
 This repo will be updated with the script that you can use for choosing your own cast, director, and genres soon!
