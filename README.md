@@ -11,7 +11,7 @@
 <a id="introduction"></a>
 ## Introduction
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This repository is my final project for General Assembly's 12-week Data Science Immersive program. The project puts together a tool, utilizing movie data, to make predictions of box office performance (measured in USD) and a Rotten Tomatoes score based on different selected factors (director, actors, genre). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This repository is my final project for General Assembly's 12-week Data Science Immersive program. The project puts together a tool, utilizing movie data, to make predictions of box office performance (measured in USD) based on different selected factors (director, actors, genre). 
 Feel free to create your own cast, director, and genres to see how your movie idea might perform!
 
 <a id="data"></a>
@@ -66,5 +66,4 @@ Additionally, Random Forest Regression is used as another model to test for the 
 <a id="result"></a>
 ## The Results
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using data science and predictive models, we can guess how a movie might perform at the box office or with critics! Of course this isn't foolproof and having more data and greater tuning would help boost the predictive power of the models. But this project highlights the amalgam of using data science and having fun! <br><br>
-This repo will be updated with the script that you can use for choosing your own cast, director, and genres soon!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using data science and predictive models, we can guess how a movie might perform at the box office! Of course this isn't foolproof and having more data and greater tuning would help boost the predictive power of the models. But this project highlights the amalgam of using data science and having fun! <br><br>
